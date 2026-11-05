@@ -4,7 +4,7 @@ Companion code for the paper:
 
 **[Generative marginal learning for finite-size molecular simulation with application to stress calculation](https://arxiv.org/abs/2610.25105)**
 
-Cheng Yuan (2026), arXiv:2610.25105. [Read the PDF](https://arxiv.org/pdf/2610.25105).
+Zhao Ding & Cheng Yuan (2026), arXiv:2610.25105. [Read the PDF](https://arxiv.org/pdf/2610.25105).
 
 This repository provides training and data-generation workflows for generative
 marginal learning (GML), including a two-dimensional Lennard-Jones (LJ) crystal
