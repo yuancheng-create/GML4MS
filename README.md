@@ -1,8 +1,16 @@
-# Generative Marginal Learning for Atomistic Systems
+# GML4MS
 
-Training and data-generation code for the two numerical systems studied in the
-manuscript: a two-dimensional Lennard-Jones (LJ) crystal with seven vacancies and
-a three-dimensional BCC iron crystal with a 65-vacancy void.
+Companion code for the paper:
+
+**[Generative marginal learning for finite-size molecular simulation with application to stress calculation](https://arxiv.org/abs/2610.25105)**
+
+Cheng Yuan (2026), arXiv:2610.25105. [Read the PDF](https://arxiv.org/pdf/2610.25105).
+
+This repository provides training and data-generation workflows for generative
+marginal learning (GML), including a two-dimensional Lennard-Jones (LJ) crystal
+with seven vacancies and a three-dimensional BCC iron crystal with a 65-vacancy
+void. The guides below describe how to generate the required data, train the
+models and sample configurations locally.
 
 This distribution contains English documentation, Python/CUDA source, dependency
 lists and Git text settings. All input parameters are defined in Python source.
@@ -122,19 +130,28 @@ protocol, use another checkout rather than mixing outputs. Failed configurations
 are retained where supported; generated configurations are not filtered to
 improve agreement.
 
-## Upload to GitHub
+## Get the code
 
-Upload the extracted source directory, or initialize Git in it:
+Clone the repository, then follow the environment setup and experiment guides:
 
 ```bash
-git init
-git add .
-git status --short
-git commit -m "Add LJ and BCC Fe training and data generation source"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
+git clone https://github.com/yuancheng-create/GML4MS.git
+cd GML4MS
 ```
 
-Review the staged file list before committing. The distribution includes no
-Git history, nested repositories, data or trained models.
+## Citation
+
+If you use this code in your research, please cite the accompanying paper:
+
+```bibtex
+@misc{yuan2026generativemarginallearning,
+  title         = {Generative marginal learning for finite-size molecular simulation with application to stress calculation},
+  author        = {Cheng Yuan},
+  year          = {2026},
+  eprint        = {2610.25105},
+  archivePrefix = {arXiv},
+  primaryClass  = {physics.comp-ph},
+  doi           = {10.48550/arXiv.2610.25105},
+  url           = {https://arxiv.org/abs/2610.25105}
+}
+```

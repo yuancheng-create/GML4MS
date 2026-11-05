@@ -1,5 +1,9 @@
 # BCC Fe under tension and shear
 
+This experiment is part of [GML4MS](../../README.md), the companion code for
+*Generative marginal learning for finite-size molecular simulation with
+application to stress calculation* ([arXiv:2610.25105](https://arxiv.org/abs/2610.25105)).
+
 Training/validation: 50, 150, 250, 350 K. Held-out evaluation: 100, 200, 300, 400 K.
 Input settings are defined in `src/settings.py`.
 
