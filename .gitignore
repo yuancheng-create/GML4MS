@@ -1,0 +1,66 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.numba_cache/
+.pytest_cache/
+.venv/
+venv/
+.env
+# Experimental outputs, including runtime metadata
+cases/
+data/
+models/
+generated/
+processed/
+initial/
+pilot/
+checks/
+logs/
+results/
+provenance/
+selection/
+numerics/
+production/
+performance/
+report/
+visualizations/
+potentials/
+*status.json
+*failure.json
+*.lock
+.lock
+*.log
+*.out
+*.pending*
+# Arrays, trajectories and trained weights
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.xyz
+*.dump
+*.lammpstrj
+*.eam.alloy
+# Rendered/document/build artifacts
+*.png
+*.jpg
+*.pdf
+*.csv
+*.zip
+*.tar.gz
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# Runtime JSON records and additional generated checkpoint comparisons
+*.json
+generated_step6000/

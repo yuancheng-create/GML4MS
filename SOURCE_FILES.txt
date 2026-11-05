@@ -1,0 +1,51 @@
+Public source file allowlist
+
+Only these implementation, numerical-check, dependency and documentation files
+are included. All numerical arrays, fitted parameters, weights, runtime records,
+and externally downloaded potential tables are generated locally.
+
+.gitattributes
+.gitignore
+README.md
+SOURCE_FILES.txt
+docs/fe3d.md
+docs/lj.md
+experiments/bcc_fe_3d/README.md
+experiments/bcc_fe_3d/run_python.sh
+experiments/bcc_fe_3d/src/audit_final_structures.py
+experiments/bcc_fe_3d/src/backend.py
+experiments/bcc_fe_3d/src/check_checkpoint_uncertainty.py
+experiments/bcc_fe_3d/src/check_force_branch.py
+experiments/bcc_fe_3d/src/check_learning_implementation.py
+experiments/bcc_fe_3d/src/check_observable_parallel.py
+experiments/bcc_fe_3d/src/check_sampling_resume.py
+experiments/bcc_fe_3d/src/check_temperature_scope.py
+experiments/bcc_fe_3d/src/common.py
+experiments/bcc_fe_3d/src/compute_mean_fields.py
+experiments/bcc_fe_3d/src/diffusion.py
+experiments/bcc_fe_3d/src/eam_cuda.cu
+experiments/bcc_fe_3d/src/evaluation.py
+experiments/bcc_fe_3d/src/gpu_md.py
+experiments/bcc_fe_3d/src/learning.py
+experiments/bcc_fe_3d/src/md_jobs.py
+experiments/bcc_fe_3d/src/observable_parallel.py
+experiments/bcc_fe_3d/src/physics.py
+experiments/bcc_fe_3d/src/prepare.py
+experiments/bcc_fe_3d/src/run_md.py
+experiments/bcc_fe_3d/src/run_pipeline.py
+experiments/bcc_fe_3d/src/settings.py
+experiments/bcc_fe_3d/src/validate_physics.py
+experiments/lj/README.md
+experiments/lj/common.py
+experiments/lj/diffusion.py
+experiments/lj/generation.py
+experiments/lj/md.py
+experiments/lj/md_core.py
+experiments/lj/md_data.py
+experiments/lj/network.py
+experiments/lj/observables.py
+experiments/lj/prepare.py
+experiments/lj/preprocessing.py
+experiments/lj/training.py
+requirements-fe.txt
+requirements.txt
