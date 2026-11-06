@@ -6,6 +6,11 @@ Companion code for the paper:
 
 Zhao Ding & Cheng Yuan (2026), arXiv:2610.25105. [Read the PDF](https://arxiv.org/pdf/2610.25105).
 
+Authors are listed alphabetically by surname:
+
+- **Zhao Ding** — Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong SAR. Email: [zhao.ding@polyu.edu.hk](mailto:zhao.ding@polyu.edu.hk).
+- **Cheng Yuan** (corresponding author) — School of Artificial Intelligence, Wuhan University, Wuhan, Hubei, China. Email: [yuancheng@whu.edu.cn](mailto:yuancheng@whu.edu.cn).
+
 This repository provides training and data-generation workflows for generative
 marginal learning (GML), including a two-dimensional Lennard-Jones (LJ) crystal
 with seven vacancies and a three-dimensional BCC iron crystal with a 65-vacancy
@@ -24,6 +29,7 @@ runtime. [SOURCE_FILES.txt](SOURCE_FILES.txt) lists the complete public file set
 ```text
 .
 ├── README.md
+├── CITATION.cff                # Machine-readable citation and author information
 ├── SOURCE_FILES.txt
 ├── requirements.txt            # Common dependencies
 ├── requirements-fe.txt         # Additional dependencies for BCC Fe
@@ -144,9 +150,9 @@ cd GML4MS
 If you use this code in your research, please cite the accompanying paper:
 
 ```bibtex
-@misc{yuan2026generativemarginallearning,
+@misc{ding2026generativemarginallearning,
   title         = {Generative marginal learning for finite-size molecular simulation with application to stress calculation},
-  author        = {Cheng Yuan},
+  author        = {Ding, Zhao and Yuan, Cheng},
   year          = {2026},
   eprint        = {2610.25105},
   archivePrefix = {arXiv},
@@ -155,3 +161,5 @@ If you use this code in your research, please cite the accompanying paper:
   url           = {https://arxiv.org/abs/2610.25105}
 }
 ```
+
+Machine-readable citation information is provided in [CITATION.cff](CITATION.cff).

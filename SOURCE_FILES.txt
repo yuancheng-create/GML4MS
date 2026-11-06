@@ -6,6 +6,7 @@ and externally downloaded potential tables are generated locally.
 
 .gitattributes
 .gitignore
+CITATION.cff
 README.md
 SOURCE_FILES.txt
 docs/fe3d.md

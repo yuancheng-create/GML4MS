@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper below."
+type: software
+title: "GML4MS: Generative marginal learning for molecular simulation"
+url: "https://github.com/yuancheng-create/GML4MS"
+repository-code: "https://github.com/yuancheng-create/GML4MS"
+authors:
+  - family-names: Ding
+    given-names: Zhao
+    email: zhao.ding@polyu.edu.hk
+    affiliation: "Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong SAR"
+  - family-names: Yuan
+    given-names: Cheng
+    email: yuancheng@whu.edu.cn
+    affiliation: "School of Artificial Intelligence, Wuhan University, Wuhan, Hubei, China"
+preferred-citation:
+  type: article
+  title: "Generative marginal learning for finite-size molecular simulation with application to stress calculation"
+  authors:
+    - family-names: Ding
+      given-names: Zhao
+      email: zhao.ding@polyu.edu.hk
+      affiliation: "Department of Applied Mathematics, Hong Kong Polytechnic University, Hong Kong SAR"
+    - family-names: Yuan
+      given-names: Cheng
+      email: yuancheng@whu.edu.cn
+      affiliation: "School of Artificial Intelligence, Wuhan University, Wuhan, Hubei, China"
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2610.25105"
+  url: "https://arxiv.org/abs/2610.25105"
